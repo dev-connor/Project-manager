@@ -15,7 +15,7 @@ program.version('0.0.1')
 const octokit = new Octokit({ auth: GITHUB_ACCESS_TOKEN })
 
 const OWNER = 'dev-connor'
-const REPO = 'fc21-cli-study'
+const REPO = 'Project-manager'
 
 const LABEL_TOO_BIG = 'too-big'
 const LABEL_BUG = 'bug'
