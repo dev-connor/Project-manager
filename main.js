@@ -106,7 +106,7 @@ program
       })
       .filter(
         (pr) => 
-        pr && typeof pr.totalChanges === 'number' && pr.totalChanges > 1
+        pr && typeof pr.totalChanges === 'number' && pr.totalChanges > 5
       )
       .map(async ({ labels, number, totalChanges }) => {
         if (!hasLabel(labels, LABEL_TOO_BIG)) {
@@ -228,3 +228,7 @@ function isAnyScreenshotInMarkdownDocument(md) {
     })
 
 program.parseAsync()
+// 1
+// 2
+// 3
+// 4
