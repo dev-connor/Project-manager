@@ -54,7 +54,7 @@ Commands
 
 <img width="1792" alt="image" src="https://github.com/dev-connor/Project-manager/assets/70655507/5e3c3d05-ddc2-438f-8f26-298d4149f766">
 
-풀 리퀘스트를 모두 검사해서, 만약 너무 diff 가 큰 (10줄) 풀 리퀘스트가 있으면 `too-big` 이라는 레이블을 붙입니다.
+풀 리퀘스트를 모두 검사해서, 만약 너무 diff 가 큰 (100줄) 풀 리퀘스트가 있으면 `too-big` 이라는 레이블을 붙입니다.
 
 ### 5. Command: check-screenshots
 ---
